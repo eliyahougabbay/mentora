@@ -1,0 +1,20 @@
+# Byte-compiled files and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Redis dump file (if it's auto-generated and not needed in version control)
+dump.rdb
+
+# Virtual environment directories (if any)
+venv/
+env/
+
+# Log files (if you generate them)
+*.log
+
+# Editor and OS-specific files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

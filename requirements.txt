@@ -1,0 +1,6 @@
+celery==5.4.0
+redis==5.2.1
+pydantic==2.10.6
+pydantic-ai==0.0.29
+openai==1.65.1
+watchdog==6.0.0
