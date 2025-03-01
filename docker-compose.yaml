@@ -9,6 +9,8 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    env_file:
+      - .env
     environment:
       - SERVICE=web
     volumes:
@@ -24,6 +26,8 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    env_file:
+      - .env
     environment:
       - SERVICE=worker
       - CELERY_BROKER_URL=redis://redis:6379/0

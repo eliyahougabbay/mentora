@@ -9,7 +9,15 @@ Simply choose a topic, and Mentora will generate:
 
 ## **Installation**  
 
-Run the following command to build and start the application:  
+First, create the `.env` file at the root of the project, and fill the vars
+```dotenv
+AZURE_API_KEY=
+AZURE_ENDPOINT=
+AZURE_API_VERSION=
+AZURE_MODEL_ID=
+```
+
+Run the following commands to build and start the application
 
 ```shell
 docker-compose up --build
